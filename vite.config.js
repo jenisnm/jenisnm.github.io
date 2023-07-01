@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/jenisnm.github.io/'
+    config.base = '/jenihacker.github.io/'
   }
 
   return config
