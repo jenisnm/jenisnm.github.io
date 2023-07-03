@@ -3,6 +3,7 @@
 #gallery {
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.6)),url("https://static.vecteezy.com/system/resources/previews/001/227/755/non_2x/blue-abstract-modern-pattern-background-vector.jpg");
     background-size: cover;
+    overflow-x: hidden;
 }
 
 #gallery h1 {
