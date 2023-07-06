@@ -8,5 +8,12 @@ export default defineConfig(({ command }) => {
     base: '/',
   }
 
+<<<<<<< HEAD
+=======
+  if (command !== 'serve') {
+    config.base = '/jenihacker.github.io/'
+  }
+
+>>>>>>> aa0aedc19cd9a823ffb6d2080560c0fde8e33229
   return config
 })
